@@ -15,6 +15,7 @@ import secrets
 - secrets: Un módulo que ofrece funciones para generar números aleatorios criptográficamente seguros, lo cual es ideal para tareas de seguridad como la generación de contraseñas.
   
 from colorama import init, Fore
+
 Es una biblioteca que permite dar color a los textos que se imprimen en la terminal o consola.
  -Se debe instalar previamente en python con pip install colorama-
  
