@@ -10,9 +10,14 @@ La solución radica en la creación de contraseñas fuertes y únicas para cada 
 # 1.	Importación de librerías 
 import string
 import secrets
-
+ 
 - string: Proporciona funciones que permiten trabajar con cadenas de caracteres predefinidas como letras, números y caracteres especiales.
 - secrets: Un módulo que ofrece funciones para generar números aleatorios criptográficamente seguros, lo cual es ideal para tareas de seguridad como la generación de contraseñas.
+  
+from colorama import init, Fore
+Es una biblioteca que permite dar color a los textos que se imprimen en la terminal o consola.
+ -Se debe instalar previamente en python con pip install colorama-
+ 
 # 2.	Definir la función
 generar_contraseña(longitud)
 Esta función se encarga de generar contraseñas seguras basadas en los requisitos establecidos por el programa.
